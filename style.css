@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+#maindiv {
+    margin: 110px auto;
+    background-color: #f0f5ff;
+    border-radius: 10px;
+    padding: 60px 80px;
+}
+/* .texthead1 {
+    font-family: Agbalumo;
+} */
+.texthead {
+   font-family: Agbalumo;
+}
+#secmaindiv {
+display:flex;
+flex-direction: column;
+}
+#card {
+    padding: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 400px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+    filter: brightness(95%);
+}
+#rating {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 45px;
+    right: 1px;
+    left: 255px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#imageg {
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#gauravsen {
+    display: flex;
+    flex-direction: row;
+}
+#sde {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items:center;
+    height: 10px;    
+}
+.sde1 {
+    padding: 5px;
+}
+i {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  #secondbuy {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #buyitem {
+    display: flex;
+    flex-direction: column;
+  }
+  #button {
+    transition-duration: 0.4s;
+  }
+  #button:hover {
+    background-color: blue;
+    color: white;
+  }
+  #cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #button2 {
+    transition-duration: 0.4s;
+  }
+   #button2:hover {
+    background-color:green;
+    color: white;
+  }
+  #button3 {
+    transition-duration: 0.4s;
+  }
+  #button3:hover {
+    background-color: red;
+    color: white;
+  }
